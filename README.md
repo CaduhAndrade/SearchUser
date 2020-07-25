@@ -2,6 +2,4 @@
 Pesquisa de usuários consumindo API.
 
 # Tecnologias 
-HTML
-CSS
-JavaScript Vanilla
+HTML - CSS- JavaScript Vanilla

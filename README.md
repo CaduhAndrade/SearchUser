@@ -1,2 +1,7 @@
 # SearchUser
-Pesquisa de usuários consumindo API
+Pesquisa de usuários consumindo API.
+
+# Tecnologias 
+HTML
+CSS
+JavaScript Vanilla

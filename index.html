@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IGTI - Pesquisa de usuários</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <header><h1>Pesquisa de Usuários</h1></header>
+    <main>
+      <div class="load">
+        <div class="loading">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="
+              margin: auto;
+              background: rgba(241, 242, 243, 0);
+              display: block;
+              align-items: center;
+            "
+            width="51px"
+            height="51px"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="xMidYMid"
+          >
+            <circle
+              cx="50"
+              cy="50"
+              fill="none"
+              stroke="#7159c1"
+              stroke-width="10"
+              r="31"
+              stroke-dasharray="146.08405839192537 50.69468613064179"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="rotate"
+                repeatCount="indefinite"
+                dur="1s"
+                values="0 50 50;360 50 50"
+                keyTimes="0;1"
+              ></animateTransform>
+            </circle>
+          </svg>
+          <span>Aguarde...</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="input-field">
+          <input type="text" id="input-text" />
+          <label id="lbl-search" for="input-text">Busca</label>
+        </div>
+        <button
+          id="btn-search"
+          class="waves-effect waves-light btn green-light darken-4"
+        >
+          BUSCAR
+        </button>
+      </div>
+      <div class="search-container">
+        <div class="people-list">
+          <h4>
+            <span id="text-users">
+              Nenhum usuário filtrado
+            </span>
+          </h4>
+          <span id="filtered-users"></span>
+          <div id="tab-people"></div>
+        </div>
+
+        <div class="people-statistics">
+          <h4>
+            <span id="text-statistics">
+              Nada a ser exibido
+            </span>
+          </h4>
+          <span id="statistics"></span>
+          <div id="tab-statistics"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Desenvolvido por Carlos Eduardo - 2020 - BootCamp IGTI - Desenvolvedor
+      Full Stack
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
